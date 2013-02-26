@@ -1,0 +1,9 @@
+This is example project showing how to package WAR file (Spring Roo generated) and JAR file containing JBoss AS7 SingletonService.
+
+Key file ear/src/main/application/META-INF/jboss-deployment-structure.xml.
+
+
+My personal note: JBoss made some improvements but documentation is still missing a lot and it seems to be 'by-design' as it looks like they want you to pay for trainings, courses... or JBoss developers assumes that server *users* know JBoss architecture as good as they do :(
+
+
+
