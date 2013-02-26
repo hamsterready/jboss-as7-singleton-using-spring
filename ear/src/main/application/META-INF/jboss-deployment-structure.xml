@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.1">
+  <!-- Make sub deployments isolated by default, so they cannot see each others classes without a Class-Path entry -->
+  <ear-subdeployments-isolated>true</ear-subdeployments-isolated>
+  <sub-deployment name="web-0.0.1-SNAPSHOT.war">
+    <exclusions>
+      <module name="deployment.ear.ear.service-0.0.1-SNAPSHOT.jar"/>
+    </exclusions>
+  </sub-deployment>
+
+  <sub-deployment name="service-0.0.1-SNAPSHOT.jar"/>
+
+</jboss-deployment-structure>
